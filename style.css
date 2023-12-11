@@ -1,3 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
 .div-container {
-    
+    /* height: 50px;
+    width: 100px; */
+    border-radius: 1;
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.one, .two, .three, .four{
+    height: 50px;
+    width: 100px;
+    margin-left: 10px;
+    display: flex;
+}
+
+.one{
+    background-color: red;
+}
+.two{
+    background-color: blue;
+}
+.three{
+    background-color: blueviolet;
+}
+.four{
+    background-color: brown;
 }
